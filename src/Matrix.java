@@ -1,8 +1,7 @@
 /* 
  * Gauss-Jordan elimination over any field (Java)
+ * by Nayuki Minase
  * modified by Justin Hsu, Nattaworn Ngampairojpibul
- * Copyright (c) 2013 Nayuki Minase
- * All rights reserved. Contact Nayuki for licensing.
  * http://nayuki.eigenstate.org/page/gauss-jordan-elimination-over-any-field-java
  */
 

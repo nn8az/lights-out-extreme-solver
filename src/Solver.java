@@ -100,21 +100,4 @@ public class Solver {
 		}
 		return count;
 	}
-
-	// MatrixAV2 A = new MatrixAV2(4, 4, 5);
-	// int row = 4;
-	// int col = 4;
-	// int[] b = board.publishB();
-	// Matrix<Integer> A_Mat = A.publishMatrix();
-	// for (int i = 0; i < row*col; i++) {
-	// A_Mat.setBVector(i, 0, (Integer)b[i]);
-	// }
-	// A_Mat.reducedRowEchelonForm();
-	// Object[][] bVector = A_Mat.getBVector();
-	// for (int i = 0; i < row; i++) {
-	// for (int j = 0; j < col; j++) {
-	// System.out.print((Integer)(bVector[row*i + j][0]) + " ");
-	// }
-	// System.out.println();
-	// }
 }
