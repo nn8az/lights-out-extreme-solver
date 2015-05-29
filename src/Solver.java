@@ -20,14 +20,7 @@ public class Solver {
 				i_ = Acol / boardCol; // index (i_, j_) is the index of where you are
 									// pressing
 				j_ = Acol % boardCol;
-				if (i_ >= 0 && i_ <= ASize && j_ >= 0 && j_ <= ASize) { // if
-																				// the
-																				// index
-																				// (i_,
-																				// j_)
-																				// is
-																				// in
-																				// bound
+				if (i_ >= 0 && i_ <= ASize && j_ >= 0 && j_ <= ASize) {
 					if (Math.abs(i - i_) + Math.abs(j - j_) <= 1) {
 						A.set(Arow, Acol, (Integer) 1);
 					} else {

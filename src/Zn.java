@@ -1,4 +1,4 @@
-public class Zn extends Field<Integer> {
+public class Zn extends FieldOperators<Integer> {
 
 	public int n;
 
